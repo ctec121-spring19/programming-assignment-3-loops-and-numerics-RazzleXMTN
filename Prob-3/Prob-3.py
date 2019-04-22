@@ -1,31 +1,18 @@
-# Module 2
-#   Programming Assignment 3
-#     Prob-3.py
+#!/usr/bin/env python3
 
-# YOUR NAME
-
-# import the math library
-
-def studentCode():
-    print("\nStudent Ouutput")
-    
-    # print the value of pi
-
+import math
+def main():
+    pi = math.pi
     x = 12.345
     y = 9.876
+    print("\nMatts Output")
 
-    # print the value of the square root of x + y
-
-    x = 3.1
-    # print the ceil() of x
-
-    # print the floor() of x
-
-    x = 3.9
-    # print the ceil() of x
-
-    # print the floor() of x
-
+    print(math.sqrt(x+y))
     print()
-
-studentCode()
+    x = 3.1
+    print(math.ceil(x))
+    print(math.floor(x))
+    x = 3.9
+    print(math.ceil(x))
+    print(math.floor(x))
+main()

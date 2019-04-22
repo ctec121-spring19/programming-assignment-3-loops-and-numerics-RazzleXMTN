@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Module 2
 #   Programming Assignment 3
 #     Prob-1.py
@@ -19,14 +20,16 @@ def example():
 
 def studentCode():
     # replace <name> with your name
-    print("\n<name>'s Output")
+    print("\nMatt's Output")
     # output the numbers between from 6 to 10 using the range() function
-    
+    for i in range(6, 11):
+        print(i)
     # print a blank line
     print()
 
     # print the even numbers between 1 and 10 using a sequence
-
+    for i in [2,4,6,8,10]:
+        print(i)
     # use the range function to print out the odd numbers between 1 and 10
 
 example()
